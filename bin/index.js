@@ -6,6 +6,7 @@ const chalk = require("chalk");
 
 //IMPORTS
 const { validateCommand, _handleError } = require("../utils");
+const { githubUrl } = require("../config");
 
 if (!shell.which('git')) {
     _handleError('this script requires git');
@@ -16,7 +17,7 @@ const [dest] = commandMap.argList;
 const depFlag = commandMap.flags.find(flag => flag.name === "-dep");
 const dependencies = depFlag ? depFlag.argList.join(" ") : "";
 
-shell.exec(`git clone https://github.com/bbgrabbag/react-boiler ${dest}`);
+shell.exec(`git clone ${githubUrl} ${dest}`);
 shell.cd(dest);
 shell.exec(`rm -rf .git`);
 shell.exec(`git init`);

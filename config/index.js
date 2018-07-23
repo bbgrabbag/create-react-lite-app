@@ -2,6 +2,7 @@
 const shell = require("shelljs");
 
 module.exports = {
+    githubUrl: "https://github.com/bbgrabbag/react-lite",
     argRules: {
         limit: { value: 1, err: "Maximum argument count exceeded" },
         min: { value: 1, err: "Destination filepath required" }
