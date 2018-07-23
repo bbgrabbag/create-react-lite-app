@@ -10,7 +10,7 @@ Allows for a simple installation of a development-ready React environment.
 See the actual boilerplate [HERE](https://github.com/bbgrabbag/react-boiler)
 
 ### Quick Install
-* `npm install -g create-react-lite-app`
+* `npm install -g @bbgrabbag/create-react-lite-app`
 * `create-react-lite-app </path/to/dest>`
 
 ### API
