@@ -1,11 +1,14 @@
 {
   "name": "@bbgrabbag/create-react-lite-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bash script for creating instances of lightweight React boilerplate code",
   "bin": {
     "create-react-lite-app": "bin/index.js"
   },
-  "repository":"https://github.com/bbgrabbag/create-react-lite-app",
+  "repository":{
+    "type": "git",
+    "url": "git@github.com:bbgrabbag/create-react-lite-app.git"
+  },
   "author": "bbgrabbag",
   "license": "ISC",
   "dependencies": {
