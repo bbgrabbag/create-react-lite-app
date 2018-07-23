@@ -1,6 +1,3 @@
-//DEPENDENCIES
-const shell = require("shelljs");
-
 module.exports = {
     githubUrl: "https://github.com/bbgrabbag/react-lite",
     argRules: {
@@ -16,5 +13,4 @@ module.exports = {
             }
         }
     ],
-
 }
