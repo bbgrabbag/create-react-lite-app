@@ -1,6 +1,6 @@
 {
   "name": "@bbgrabbag/create-react-lite-app",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Bash script for creating instances of lightweight React boilerplate code",
   "bin": {
     "create-react-lite-app": "bin/index.js"
