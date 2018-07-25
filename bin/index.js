@@ -1,4 +1,4 @@
-#! /usr/local/bin
+#! /usr/bin/env node
 
 //DEPENDENCIES
 const shell = require("shelljs");
